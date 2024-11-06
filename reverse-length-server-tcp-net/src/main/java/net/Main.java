@@ -12,7 +12,7 @@ public class Main {
                 case "length" -> String.valueOf(requestData.length());
                 default -> {
                     responseCode = ResponseCode.WRONG_TYPE;
-                    yield "server doesn't understand your command";
+                    yield "unexpected command";
                 }
             };
             return new Response(responseCode, responseData);
