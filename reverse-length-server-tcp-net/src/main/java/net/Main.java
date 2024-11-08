@@ -24,3 +24,6 @@ public class Main {
         server.run();
     }
 }
+//client: 27 line, read String Options would be better, 
+//server - would be better if the switch returned
+ //Response rather than only string-data
